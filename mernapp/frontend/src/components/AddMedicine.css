@@ -1,0 +1,107 @@
+/* Apply Background with a Medical Theme */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(rgba(150, 219, 242, 0.7), rgba(255, 255, 255, 0.9)), 
+                url('https://source.unsplash.com/1600x900/?pharmacy,medicine') no-repeat center center/cover;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header */
+.header {
+    font-size: 24px;
+    font-weight: bold;
+    background: rgba(0, 119, 182, 0.9);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-icon {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.tagline {
+    font-size: 14px;
+    font-style: italic;
+}
+
+/* Info Section Above Form */
+.info-section {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    width: 50%;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Container */
+.form-container {
+    background: rgba(255, 255, 255, 0.9);
+    width: 40%;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.form-container h2 {
+    color: #0077b6;
+}
+
+/* Inputs & Buttons */
+input, button {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #0077b6;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #005f86;
+    transform: scale(1.05);
+}
+
+/* Side Info Sections */
+.side-info {
+    position: absolute;
+    top: 40%;
+    width: 150px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.left-side {
+    left: 20px;
+}
+
+.right-side {
+    right: 20px;
+}
+
+/* Footer */
+.footer {
+    background: rgba(0, 119, 182, 0.9);
+    color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

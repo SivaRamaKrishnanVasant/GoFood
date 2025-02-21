@@ -1,0 +1,44 @@
+.medtime-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .medtime-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input, select {
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  button {
+    background-color: #ff5722;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: #e64a19;
+  }
+  
+  .message {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
